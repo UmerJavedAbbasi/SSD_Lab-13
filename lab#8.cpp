@@ -60,7 +60,7 @@ class InstitutionalPlan:public Plan
 class GetPlanFactory
 {
     public:
-    Plan getPlan(string plan)
+    Plan getPlan(const string plan)
     {
         if(plan == "domestic")
         {
